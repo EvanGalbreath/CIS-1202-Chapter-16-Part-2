@@ -12,22 +12,6 @@ T half(T value)
     return value / 2;
 }
 
-int half(int value)
-{
-    if (value % 2 == 0)
-    {
-        return value / 2;
-    }
-    else if (value >= 0)
-    {
-        return value / 2 + 1;
-    }
-    else
-    {
-        return value / 2 - 1;
-    }
-}
-
 int main()
 {
     double a = 7.0;
